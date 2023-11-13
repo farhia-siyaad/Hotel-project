@@ -1,0 +1,45 @@
+*{
+     padding: 0;
+     margin: 0;
+
+}
+header ul{
+     list-style: none;
+     justify-content: center;
+     display: flex;
+     cursor: pointer;
+}
+header ul li{
+     padding: 20px;
+}
+.dropdown ul{
+     flex-direction: column;
+     display: none;
+     background-color: antiquewhite;
+     padding: 10px;
+     margin: 23px;
+     color: blue;
+}
+.dropdown ul li{
+     padding: 10px;
+}
+
+
+header ul li:hover .dropdown ul{
+     display: flex;
+     cursor: pointer;
+     position: absolute;
+
+}
+.dropdown ol{
+     display: none;
+     margin-left: -20px;
+     list-style: none;
+}
+.dropdown ol li{
+     padding-top: 20px;
+     font-size: 18px;
+}
+
+
+

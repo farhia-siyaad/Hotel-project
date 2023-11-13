@@ -1,0 +1,435 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+
+.header{
+     padding: 10px 50px;
+display: flex;
+justify-content: space-between;
+
+}
+.header ul{
+     display: flex;
+     list-style: none;
+     /* gap: 30px; */
+     margin-left: 130px;
+
+}
+.header ul li{
+     font-size: 25px;
+     padding: 0px 30px;
+     cursor: pointer;
+ color: gray;
+
+}
+.header ul li:hover{
+     background-color: palegreen;
+     color: white;
+     text-decoration:line-through;
+
+}
+.btn{
+     color:white;
+     background-color: orange;
+     font-size: 21px;
+     padding: 12px 30px;
+     border: none;
+     border-radius: 10px;
+}
+
+
+.logo{
+     display: flex;
+}
+
+
+.logo i{
+     border-radius: 6px;
+     padding: 6px;
+     height: 34px;
+     font-size: 35px;
+     background-color:rgb(249, 188, 76);
+}
+
+
+.hero{
+     margin: 10px 50px;
+     border-radius: 16px;
+     height: 500px;
+   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6slKuqtUSTsFHU1jqiPL7g6PLl6XMp9gmMA&usqp=CAU");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+ padding: 12px 70px;
+}
+.div-parent{
+     display: flex;
+
+}
+.div-parent i{
+     margin-right: 15px;
+     margin-top: 12px;
+     font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.right-side{
+     padding: 12px;
+     border-radius: 22px;
+background-color: white;
+
+width: 350px;
+height: 350px;
+margin-top: 20px;
+
+
+
+}
+.left-side{
+     margin-top: 120px;
+    width: 550px;
+     
+}
+
+.left-side p{
+     font-size: 25px;
+     color: white;
+}
+.left-side h1{
+     font-size: 60px;
+     color: peru;
+}
+
+.locationinput{
+     margin-bottom: 10px;
+     outline: none;
+     padding: 6px;
+     height: 35px;
+     width: 350px;
+     border-radius: 12px;
+     border: none;
+     background-color: rgba(230, 223, 223, 0.751);
+
+}
+.right-side p{
+     margin-bottom: 20px;
+
+}
+.right-side button{
+     width: 350px;
+     padding: 12px;
+     background-color: orange;
+     border: none;
+     border-radius: 28px;
+     color: white;
+     font-size:21px ;
+     margin-top: 30px;
+}
+.input-parent{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+}
+
+.left-input input{
+     height: 47px;
+     width: 170px;
+     border-radius: 8px;
+     border: none;
+     background-color:rgba(230, 223, 223, 0.751);
+}
+
+
+.benifit-parent{
+     margin-top: 70px;
+     display: flex;
+     justify-content: space-around;
+
+
+}
+
+
+.right-benifit{
+     width: 500px;
+}
+.left-benifit .img1{
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-image: url("asset/images.jpg");
+     border-radius: 12px;
+     width: 400px;
+     height: 460px
+
+}
+.left-benifit{
+     position: relative;
+}
+.left-benifit .img2{
+     background-image: url("asset/download\ \(3\).jpg");
+     width: 250px;
+     height: 250px;
+     background-color: coral;
+     position: absolute;
+     right: -70px;
+     border-radius: 22px;
+     border: 6px white solid;
+     top: 140px;
+}
+
+
+
+
+
+
+
+.right-side button{
+     width: 350px;
+     padding: 12px;
+
+}
+
+
+.partner-parent{
+padding: 20px 50px;
+display: flex;
+justify-content: space-between;
+}
+.left-partner{
+     width: 560px;
+     font-size: 19px;
+}
+
+.right-partner img{
+width: 150px;
+}
+.offer{
+     background-color: #f8f8f8;
+     height: 500px;
+}
+.offer-title-parent{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 50px;
+}
+.left-offer h4{
+     color: orange;
+     font-size: 20px;
+}
+.left-offer h1{
+     font-size: 60px;
+}
+.offer-title-parent h3{
+ margin-top: 40px;
+ color: orange;
+ font-size: 18px;
+}
+.box{
+     height: 250px;
+     width: 100%;
+     background-color: white;
+     padding: 12px;
+     border-radius: 18px;
+}
+
+.box-parent{
+     margin-bottom: 40px;
+     margin-top: 30px;
+     display: grid;
+justify-content: space-around;
+grid-template-columns: 350px 350px 350px;
+}
+
+.box img{
+     width: 100%;
+     height: 160px;
+     border-radius: 12px;
+
+}
+.box h3{
+     margin-top: 10px;
+}
+.info-parent{
+     display: flex;
+     justify-content: space-between;
+}
+.info-parent i{
+     color: orange;
+}
+
+.faq-section{
+     margin-top: 50px;
+     height: 400px;
+     text-align: center;
+}
+.faq-section h4{
+     color: orange;
+     font-size: 20px;
+     margin-bottom: 20px;
+}
+.faq-section h1{
+     font-size: 50px;
+     margin-bottom: 20px;
+}
+.faq-section p{
+     font-size: 20px;
+     color: gray;
+}
+.faq-one{
+     border-radius: 4px;
+     border: 1px rgb(230, 222, 222) solid;
+     width: 500px;
+
+}
+.faq-questions{
+     margin: 2px 20px;
+     justify-content: space-around;
+     display: flex;
+     padding: 20px;
+}
+.faq-parent{
+     gap: 30px;
+     display: flex;
+     padding: 20px;
+}
+.faq-parent{
+     gap: 30px;
+     display: flex;
+     justify-content: center;
+     margin-top: 50px;
+
+}
+
+
+.price-parent{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 10px;
+}
+
+.review-parent{
+     position:relative;
+     display: flex;
+     justify-content: space-evenly;
+     margin: 50px 20px;
+     height: 500px;
+}
+.review-parent img{
+     width: 650px;
+     height: 460px;
+     border-radius: 22px;
+}
+
+.box-review i{
+     font-size: 50px;
+}
+.box-review p{
+     font-size: 20px;
+     color: gray;
+}
+.box-review{
+     margin-top: 20px;
+     position: absolute;
+     right: 20px;
+     top: 130px;
+     line-height: 50px;
+     background-color: white;
+     padding: 20px;
+     border-radius: 12px;
+}
+.right-review h4{
+     font-size: 30px;
+     color: orange;
+}
+
+.right-review h1{
+     font-size: 50px;
+}
+
+
+.footer{
+     background-color: black;
+     height: 400px;
+     padding: 40px;
+     color: white;
+}
+.newslater-parent{
+     display: flex;
+     justify-content: space-between;
+}
+.email{
+     background-color: white;
+     padding: 16px 40px;
+     border-radius: 12px;
+}
+
+
+.email input{
+     border: none;
+     outline: none;
+}
+
+
+
+.email button{
+     background-color: orange;
+     border: none;
+     padding: 10px 20px;
+     font-size: 21px;
+     border-radius: 10px;
+     color: white;
+}
+
+.links-parent {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 60px;
+}
+.right-links{
+     display: flex;
+     gap: 70px;
+}
+.right-links h3{
+margin-bottom: 24px;
+font-size: 23px;
+
+}
+.right-links p{
+     line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
